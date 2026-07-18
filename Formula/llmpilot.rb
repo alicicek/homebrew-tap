@@ -7,10 +7,10 @@ class Llmpilot < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/alicicek/llmpilot/releases/download/v1.0.0/llmpilot_1.0.0_darwin_arm64.tar.gz"
-    sha256 "ac931373bc6c417a2121706a809f53abfee15fb78cb2de43e718b8706e308ac7"
+    sha256 "50c888fe76969ba33a16a283678187aac636dd24adae28c3740c390ff01402d6"
   else
     url "https://github.com/alicicek/llmpilot/releases/download/v1.0.0/llmpilot_1.0.0_darwin_amd64.tar.gz"
-    sha256 "3414ee61e11225c818d27a5bf6baebc1ecf5f759ea1dd3d8275da20b6f89fcb6"
+    sha256 "cc35933c03c9f1654b8c7349a11488f04c91764ff108ebab134b5196b0ff76b5"
   end
 
   def install
